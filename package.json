@@ -1,29 +1,25 @@
 {
+  "author": "Henry Catalini Smith <henry@catalinismith.com>",
   "bin": {
     "node": "./bin.js"
   },
   "dependencies": {
     "commander": "^13.1.0"
   },
+  "description": "Automatic update tooling for work environment data",
   "devDependencies": {
     "@types/node": "^20",
     "tsx": "^4.19.2",
     "typedoc": "^0.27.6",
     "typescript": "^5"
   },
-  "files": [
-    "bin.js",
-    "version.js"
-  ],
-  "name": "@arbetsmarknad/node",
+  "name": "@arbetsmiljo/autoupdate",
   "scripts": {
-    "build": "tsc",
-    "node": "tsx ./bin.ts"
+    "autoupdate": "tsx ./bin.ts",
+    "build": "tsc"
   },
   "typedocOptions": {
-    "entryPoints": [
-      "./version.ts"
-    ]
+    "entryPoints": []
   },
   "version": "0.0.0"
 }

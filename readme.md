@@ -1,7 +1,7 @@
-# node
+# autoupdate
 
-Node starter project.
+Automatic update tooling for work environment data.
 
 ## License
 
-[MIT](https://github.com/arbetsmarknad/node/blob/main/license)
+[MIT](https://github.com/arbetsmiljo/autoupdate/blob/main/license)
