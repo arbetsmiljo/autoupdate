@@ -1,5 +1,5 @@
 {
-  "author": "Henry Catalini Smith <henry@catalinismith.com>",
+  "author": "Henry Catalini Smith <henry@catalinismith.se>",
   "bin": {
     "node": "./bin.js"
   },
